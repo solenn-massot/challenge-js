@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quizz</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <h1>Quizz</h1>
+    <div class="container-global">
+      <form action="" class="form-quizz">
+        <div class="question-block">
+          <h4>Qui a inventé le premier langage de programmation ?</h4>
+          <div>
+            <input type="radio" id="Ada" name="q1" value="a" checked />
+            <label for="Ada">Ada de Lovelace</label>
+          </div>
+          <div>
+            <input type="radio" id="Charles" name="q1" value="b" />
+            <label for="Charles">Charles Babbage</label>
+          </div>
+          <div>
+            <input type="radio" id="Mark" name="q1" value="c" />
+            <label for="Mark">Mark Zuckerberg</label>
+          </div>
+        </div>
+        <div class="question-block">
+          <h4>A quel message correspond l'erreur 418 ?</h4>
+          <div>
+            <input type="radio" id="Trex" name="q2" value="a" checked />
+            <label for="Trex">Un t-rex a mangé le serveur</label>
+          </div>
+          <div>
+            <input type="radio" id="Serveur" name="q2" value="b" />
+            <label for="Serveur">Le serveur est inaccessible </label>
+          </div>
+          <div>
+            <input type="radio" id="The" name="q2" value="c" />
+            <label for="The">Le serveur auquel vous tentez d'accèder est une théière</label>
+          </div>
+        </div>
+        <div class="question-block">
+          <h4>
+            Quel est la réponse à la question sur la vie, l'univers, et tout le
+            reste ?
+          </h4>
+          <div>
+            <input type="radio" id="Vrai" name="q3" value="a" checked />
+            <label for="Vrai">42</label>
+          </div>
+          <div>
+            <input type="radio" id="Chuck" name="q3" value="b" />
+            <label for="Chuck">Chuck Norris</label>
+          </div>
+          <div>
+            <input type="radio" id="Dieu" name="q3" value="c" />
+            <label for="Dieu">Dieu</label>
+          </div>
+        </div>
+        <div class="question-block">
+          <h4>Tux c'est..</h4>
+          <div>
+            <input type="radio" id="Tuc" name="q4" value="a" checked />
+            <label for="Tuc">Des gâteaux apéros</label>
+          </div>
+          <div>
+            <input type="radio" id="Vaisseaux" name="q4" value="b" />
+            <label for="Vaisseaux">Un marque de vaisseaux</label>
+          </div>
+          <div>
+            <input type="radio" id="Manchot" name="q4" value="c" />
+            <label for="Manchot">Un joli manchot</label>
+          </div>
+        </div>
+        <div class="question-block">
+          <h4>Merci pour le ..?</h4>
+          <div>
+            <input type="radio" id="Quizz" name="q5" value="a" checked />
+            <label for="Quizz">Quizz</label>
+          </div>
+          <div>
+            <input type="radio" id="Poisson" name="q5" value="b" />
+            <label for="Poisson">Poisson</label>
+          </div>
+          <div>
+            <input type="radio" id="Million" name="q5" value="c" />
+            <label for="Million">Million</label>
+          </div>
+        </div>
+        <button type="submit">Validez les réponses</button>
+      </form>
+      <div class="resultats">
+          <h2>Cliquez sur valider pour voir les résultats</h2>
+          <p class="aide"></p>
+          <p class="note"></p>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
